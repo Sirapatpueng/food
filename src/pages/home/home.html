@@ -1,14 +1,44 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+  <ion-navbar color="chom">
+    <ion-title> อาหารปักษ์ใต้หรอยแรง </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+<ion-content padding >
+  <ion-col justify-content-center>
+    <ion-row justify-content-center>
+      <img src="assets/imgs/food.jpg" width="300" height="150" >
+    </ion-row>
+
+    <ion-row justify-content-center > 
+      <br>
+       อาหารภาคใต้<br>
+    </ion-row>
+
+    <ion-row justify-content-center> 
+      <p> อาหารไทยภาคใต้ เป็นอาหารไทยที่นิยมรับประทานในภาคใต้ โดยมีลักษณะเฉพาะตัว 
+      ที่มีเครื่องเทศเป็นหลัก ซึ่งอาหารไทยในภาคใต้มีความหลากหลายไปตามกลุ่มวัฒนธรรมต่างๆ
+      ที่โดดเด่น คือ อาหารของชาวไทยพุทธ ชาวไทยมุสลิมในจังหวัดชายแดนภาคใต้ที่มีเชื้อสาย
+      มลายู และกลุ่มชาวไทยเชื้อสายจีน โดยเฉพาะในจังหวัดภูเก็ตนอกจากนั้น อาหารในแถบ
+      ทะเลอันดามัน อ่าวไทย และทะเลสาบสงขลาก็มีลักษณะเด่นเฉพาะกลุ่มเช่นกัน <p>
+    </ion-row>
+
+    <ion-row justify-content-center > 
+        เอกลักษณ์ของอาหารภาคใต้
+      </ion-row>
+
+      <ion-row justify-content-center> 
+        <p> อาหารภาคใต้ มีเอกลักษณ์สำคัญ คือ รสชาติเผ็ด ด้วยพริกแกงใต้ ที่มีเครื่องเทศต่างๆ
+        พริกแกงใต้สีเหลือง ได้มาจากสีของขมิ้น ซึ่งขมิ้นนั้นสามารถแก้รสคาวได้ รสเค็มจะได้จาก กะปิ
+        อาหารที่ใต้ รสชาติเผ็ดร้อน เค็ม เปรี้ยว ไม่นิยมหวาน <p>                 
+      </ion-row>
+  </ion-col>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar color="chom">
+    <ion-icon ios="ios-home" md="md-home" (click)="ongoToHome()"></ion-icon>
+    <ion-icon ios="ios-list-box" md="md-list-box" (click)="ongoToMenu()"></ion-icon>
+  </ion-toolbar>
+</ion-footer>
